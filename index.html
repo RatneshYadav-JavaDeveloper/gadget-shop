@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!-- Website template by Free Website Templates -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Gadget Shop Website Template</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Font Awesome CDN for Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<style>
+		/* Updated CSS */
+		#welcome-message {
+			background-color: lightblue;
+			color: darkblue;
+			padding: 10px;
+			font-size: 18px;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		footer {
+			text-align: center;
+			margin-top: 20px;
+			color: gray;
+		}
+
+		.bold-white-text {
+			color: white;
+			font-weight: bold;
+		}
+
+		/* Styling the social icons */
+		#footer ul {
+			list-style-type: none;
+			padding: 0;
+		}
+
+		#footer ul li {
+			display: inline;
+			margin-right: 10px;
+		}
+
+		#footer ul li a {
+			color: white;
+			font-size: 24px;
+			text-decoration: none;
+		}
+
+		#footer ul li a:hover {
+			color: #ddd;
+		}
+	</style>
+	<script>
+		// JavaScript Code for Welcoming Message
+		document.addEventListener('DOMContentLoaded', function () {
+			// Welcoming Message
+			const welcomeMessage = document.createElement('div');
+			welcomeMessage.id = 'welcome-message';
+			welcomeMessage.textContent = 'Welcome to My Gadget Shop Website!';
+			document.body.prepend(welcomeMessage);
+		});
+	</script>
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+			</div>
+			<ul>
+				<li class="home current">
+					<a href="index.html"><span>Home</span></a>
+				</li>
+				<li class="products">
+					<a href="products.html"><span>Headphones</span></a>
+				</li>
+				<li class="about">
+					<a href="about.html"><span>About</span></a>
+				</li>
+				<li class="blog">
+					<a href="blog.html"><span>Blog</span></a>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<div id="figure">
+				<div>
+					<h1>Live Music</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="body">
+		<div>
+			<div>
+				<div>
+					<div>
+						<h1>Featured Products</h1>
+						<h4>This is just a placeholder, so you can see what the site would look like.</h4>
+						<ul>
+							<li>
+								<a href="products.html"><img src="images/headphone1.png" alt="Image"></a>
+								<h2><a href="products.html">Product</a></h2>
+							</li>
+							<li>
+								<a href="products.html"><img src="images/headphone2.png" alt="Image"></a>
+								<h2><a href="products.html">Product</a></h2>
+							</li>
+							<li>
+								<a href="products.html"><img src="images/headphone3.png" alt="Image"></a>
+								<h2><a href="products.html">Product</a></h2>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div id="footer">
+		<div>
+			<div>
+				<h3>Blog</h3>
+				<p>
+					A detailed roundup of the best headphones available in 2024, highlighting their sound quality, comfort, design, and battery life. This blog can include recommendations for various use cases like gaming, music production, or casual listening.
+				</p>
+			</div>
+			<div>
+				<h3>Get Social</h3>
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/profile.php?id=100009042482392" target="_blank" id="facebook"></a>
+						<a href="https://www.instagram.com/pankaj.pikachu?igsh=ZjFpemdxeTdsZjA3" target="_blank" id="instagram"><i class="fab fa-instagram"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<p class="footnote">
+			&copy; Copyright 2024. All rights reserved.
+		</p>
+		<footer>
+			<p class="bold-white-text">Created by Pankaj Yadav Ray - ID: 24314074</p>
+		</footer>
+	</div>
+</body>
+</html>
